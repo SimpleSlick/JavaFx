@@ -1,0 +1,142 @@
+.root {
+    -fx-background-color: #0B1020;
+}
+
+.game-card {
+    -fx-background-color: #151C32;
+    -fx-background-radius: 24px;
+}
+
+.stat-card {
+    -fx-background-color: #1C2541;
+    -fx-background-radius: 14px;
+}
+
+.feedback-card {
+    -fx-background-color: #1C2541;
+    -fx-background-radius: 16px;
+}
+
+.title {
+    -fx-text-fill: #F5F7FF;
+    -fx-font-family: "Arial";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #9CA6C0;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+.stat-title {
+    -fx-text-fill: #9CA6C0;
+    -fx-font-family: "Arial";
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+
+.stat-value {
+    -fx-text-fill: #F5F7FF;
+    -fx-font-family: "Arial";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.status {
+    -fx-text-fill: #6C63FF;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.feedback {
+    -fx-text-fill: #F5F7FF;
+    -fx-font-family: "Arial";
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+
+.hint {
+    -fx-text-fill: #9CA6C0;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+}
+
+.guess-field {
+    -fx-background-color: #0F1528;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #66708A;
+    -fx-border-color: #303A5A;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 0 14px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.guess-field:focused {
+    -fx-border-color: #6C63FF;
+}
+
+.guess-button {
+    -fx-background-color: #6C63FF;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12px;
+    -fx-cursor: hand;
+}
+
+.guess-button:hover {
+    -fx-background-color: #8179FF;
+}
+
+.secondary-button {
+    -fx-background-color: #252E4A;
+    -fx-text-fill: #D8DEEF;
+    -fx-font-family: "Arial";
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #303B5E;
+    -fx-text-fill: white;
+}
+
+.danger-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #7F8AA5;
+    -fx-border-color: #303A5A;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #302238;
+    -fx-text-fill: #FB7185;
+    -fx-border-color: #FB7185;
+}
+
+.progress-bar {
+    -fx-accent: #6C63FF;
+}
+
+.progress-bar .track {
+    -fx-background-color: #252E4A;
+    -fx-background-radius: 10px;
+}
+
+.progress-bar .bar {
+    -fx-background-radius: 10px;
+}
