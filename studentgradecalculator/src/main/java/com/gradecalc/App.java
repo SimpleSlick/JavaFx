@@ -1,4 +1,4 @@
-package com.gradecalculator;
+package com.gradecalc;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -8,38 +8,20 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-
         GradeCalculatorUI ui = new GradeCalculatorUI();
 
-        Scene scene = new Scene(
-                ui.getRoot(),
-                700,
-                750
-        );
+        Scene scene = new Scene(ui.getRoot(), 700, 750);
 
         scene.getStylesheets().addAll(
-                getClass()
-                        .getResource("/styles/main.css")
-                        .toExternalForm(),
-
-                getClass()
-                        .getResource("/styles/components.css")
-                        .toExternalForm(),
-
-                getClass()
-                        .getResource("/styles/controls.css")
-                        .toExternalForm()
+                getClass().getResource("/styles/main.css").toExternalForm(),
+                getClass().getResource("/styles/components.css").toExternalForm(),
+                getClass().getResource("/styles/controls.css").toExternalForm()
         );
 
-        primaryStage.setTitle(
-                "Student Grade Calculator"
-        );
-
+        primaryStage.setTitle("Student Grade Calculator");
         primaryStage.setScene(scene);
-
         primaryStage.setMinWidth(600);
         primaryStage.setMinHeight(700);
-
         primaryStage.show();
     }
 

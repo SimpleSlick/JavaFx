@@ -1,0 +1,80 @@
+/* Student Grade Calculator - Control Styles */
+
+.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #666;
+    -fx-font-size: 14px;
+    -fx-border-color: #f7971e;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+}
+
+.total-result {
+    -fx-fill: #f1f5f9;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.average-result {
+    -fx-fill: #4ade80;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.grade-result {
+    -fx-fill: #7c5cff;
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+}
+
+.grade-description {
+    -fx-fill: #8f9bad;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused {
+    -fx-border-color: #fdcb6e;
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(247, 151, 30, 0.3),
+        10,
+        0,
+        0,
+        0
+    );
+}
+.button {
+    -fx-background-color: #f7971e;
+    -fx-text-fill: #1a1a2e;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(0, 0, 0, 0.3),
+        5,
+        0,
+        2,
+        2
+    );
+}
+
+.button:hover {
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(0, 0, 0, 0.4),
+        8,
+        0,
+        3,
+        3
+    );
+}

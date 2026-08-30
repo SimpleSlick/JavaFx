@@ -1,105 +1,123 @@
-/* Tile Pane */
-.titled-pane {
-    -fx-text-fill: white;
-    -fx-font-size: 16px;
-    -fx-font-weight: bold;
+/* Student Grade Calculator - Components */
 
-    -fx-border-radius: 10px;
-    -fx-background-radius: 10px;
+.add-button {
+    -fx-background-color: #7c5cff;
+    -fx-text-fill: white;
+}
+
+.add-button:hover {
+    -fx-background-color: #8b70ff;
+}
+
+.calculate-button {
+    -fx-background-color: #159a80;
+    -fx-text-fill: white;
+}
+
+.calculate-button:hover {
+    -fx-background-color: #19b092;
+}
+
+.clear-button {
+    -fx-background-color: #1a2230;
+    -fx-text-fill: #aeb8c8;
+    -fx-border-color: #2b3546;
+}
+
+.remove-button {
+    -fx-background-color: #241820;
+    -fx-text-fill: #ff7185;
+    -fx-border-color: #452832;
+}
+
+.titled-pane {
+    -fx-text-fill: #f5f7fa;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-border-color: #252c3a;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
 }
 
 .titled-pane > .title {
-    -fx-background-color: rgba(255, 255, 255, 0.05);
-
-    -fx-border-radius: 10px 10px 0 0;
-    -fx-background-radius: 10px 10px 0 0;
-
-    -fx-padding: 10px 15px;
+    -fx-background-color: #151b27;
+    -fx-border-color: transparent;
+    -fx-border-radius: 12px 12px 0 0;
+    -fx-background-radius: 12px 12px 0 0;
+    -fx-padding: 12px 16px;
 }
 
 .titled-pane > .title > .text {
-    -fx-fill: white;
-
-    -fx-font-size: 16px;
+    -fx-fill: #f5f7fa;
+    -fx-font-size: 15px;
     -fx-font-weight: bold;
 }
 
 .titled-pane > .content {
-    -fx-background-color: rgba(255, 255, 255, 0.02);
-
-    -fx-border-radius: 0 0 10px 10px;
-    -fx-background-radius: 0 0 10px 10px;
+    -fx-background-color: #111722;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0 0 12px 12px;
+    -fx-background-radius: 0 0 12px 12px;
 }
 
-/* List View */
-.list-view {
-    -fx-background-color: rgba(255, 255, 255, 0.05);
-
-    -fx-control-inner-background:
-        rgba(255, 255, 255, 0.05);
-
-    -fx-text-fill: white;
-
-    -fx-font-size: 14px;
-
-    -fx-border-color: #f7971e;
-    -fx-border-radius: 8px;
-    -fx-background-radius: 8px;
+.input-pane {
+    -fx-border-color: #252c3a;
 }
 
-.list-view .list-cell {
-    -fx-text-fill: white;
+.results-pane {
+    -fx-border-color: #252c3a;
+}
 
+.section-content {
     -fx-background-color: transparent;
-
-    -fx-padding: 8px 12px;
 }
 
-.list-view .list-cell:even {
-    -fx-background-color:
-        rgba(255, 255, 255, 0.03);
-}
-
-.list-view .list-cell:odd {
-    -fx-background-color:
-        rgba(255, 255, 255, 0.06);
-}
-
-.list-view .list-cell:selected {
-    -fx-background-color: #f7971e;
-
-    -fx-text-fill: #1a1a2e;
-}
-
-/* Scroll Bar */
-.scroll-bar {
-    -fx-background-color:
-        rgba(255, 255, 255, 0.05);
-}
-
-
-.scroll-bar .thumb {
-    -fx-background-color: #f7971e;
-
+.subject-list {
+    -fx-background-color: #0d131e;
+    -fx-control-inner-background: #0d131e;
+    -fx-border-color: #252c3a;
+    -fx-border-radius: 10px;
     -fx-background-radius: 10px;
 }
 
-
-.scroll-bar .track {
-    -fx-background-color:
-        rgba(255, 255, 255, 0.05);
+.subject-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cbd2df;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 14px;
 }
 
-/* TOOLTIP */
-.tooltip {
-    -fx-background-color:
-        rgba(30, 30, 60, 0.9);
+.subject-list .list-cell:even {
+    -fx-background-color: #111722;
+}
 
-    -fx-text-fill: white;
+.subject-list .list-cell:odd {
+    -fx-background-color: #0d131e;
+}
 
-    -fx-font-size: 12px;
+.subject-list .list-cell:hover {
+    -fx-background-color: #192131;
+}
 
-    -fx-border-color: #f7971e;
-    -fx-border-radius: 5px;
-    -fx-background-radius: 5px;
+.subject-list .list-cell:selected {
+    -fx-background-color: #293449;
+    -fx-text-fill: #ffffff;
+}
+
+.scroll-bar {
+    -fx-background-color: #0d131e;
+}
+
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #3a4558;
+    -fx-background-radius: 8px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #56647b;
 }
