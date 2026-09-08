@@ -1,0 +1,26 @@
+/* ATM INTERFACE
+   MAIN APPLICATION STYLES*/
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #080c13;
+}
+
+
+/*MAIN LAYOUT*/
+
+.main-layout {
+    -fx-background-color: #080c13;
+}
+
+/* APPLICATION HEADER */
+.app-title {
+    -fx-fill: #f4f7fb;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.app-subtitle {
+    -fx-fill: #7f8a9c;
+    -fx-font-size: 13px;
+}
