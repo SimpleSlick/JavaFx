@@ -1,0 +1,14 @@
+target/
+*.class
+
+# Maven build output
+*.jar
+*.war
+*.ear
+
+# Java
+hs_err_pid*
+replay_pid*
+
+# VS Code
+.vscode
